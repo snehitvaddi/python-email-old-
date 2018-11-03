@@ -5,7 +5,7 @@ A simple code to send automatic emails direcly from python.
 #I want to see an acknowledgement if eamil has sent else notify me !!.. 
 
 import smtplib
-sender = 'v.snehith999@gmail.com'
+sender = 'v.snehith999@gmailcom'
 receiver = 'v.pujithj@gmailcom'
 message=""" From <email of sender> 
   To: To person <email of receiver>
