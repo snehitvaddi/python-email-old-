@@ -1,8 +1,5 @@
 # simple-python-email-sending-code
-A simple code to send automatic emails direcly from python.
-
-# In order to dend emails through python3 , we use SMTP Serever libraries.
-#I want to see an acknowledgement if eamil has sent else notify me !!.. 
+A simple code to send automatic emails direcly from python
 
 import smtplib
 sender = 'v.snehith999@gmailcom'
