@@ -13,8 +13,10 @@ From <email of sender>
 
 try:
  server=smtplib.SMTP('smtp.gmail.com',587)
+ server.starttls()
+ server.login("sender_email","Sender_password")
  server.sendmail(sender,receiver,message)
  print('Main has been sent successfully')
 except SMTPException:
  print('Unable to send mail')
- 
+server.quit()
