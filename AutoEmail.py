@@ -1,12 +1,13 @@
 import smtplib
 sender = 'v.snehith999@gmailcom'
 receiver = 'v.pujithj@gmailcom'
-message=""" From <email of sender> 
-  To: To person <email of receiver>
-  subject: SMTP Automatic mail
-  <h>THIS IS HEAD</h>
-  <b>THSI IS BODY</b>
-  """
+message=""" 
+From <email of sender> 
+ To: To person <email of receiver>
+ subject: SMTP Automatic mail
+ <h>THIS IS HEAD</h>
+ <b>THSI IS BODY</b>
+"""
   
 #Note: (""")indicate multiline string.
 
